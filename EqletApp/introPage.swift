@@ -9,8 +9,12 @@ import SwiftUI
 
 struct introPage: View {
     var body: some View {
-        Text("Hello")
-            .foregroundColor(Color(hex: "#6A5C46"))
+//        Text("Hello")
+//            .foregroundColor(Color(hex: "#6A5C46"))
+        Image("introBG")
+            .resizable()
+            .scaledToFill()
+            .edgesIgnoringSafeArea(.all)
     }
 }
 
