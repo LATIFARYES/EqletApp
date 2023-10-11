@@ -11,6 +11,7 @@
 		276ABCDA2AD4280500FC71A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276ABCD92AD4280500FC71A4 /* ContentView.swift */; };
 		276ABCDC2AD4280600FC71A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276ABCDB2AD4280600FC71A4 /* Assets.xcassets */; };
 		276ABCDF2AD4280600FC71A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276ABCDE2AD4280600FC71A4 /* Preview Assets.xcassets */; };
+		7BD782D02AD6E1BC00F3C85E /* introPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD782CF2AD6E1BC00F3C85E /* introPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		276ABCD92AD4280500FC71A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		276ABCDB2AD4280600FC71A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		276ABCDE2AD4280600FC71A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7BD782CF2AD6E1BC00F3C85E /* introPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = introPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				276ABCD72AD4280500FC71A4 /* EqletAppApp.swift */,
+				7BD782CF2AD6E1BC00F3C85E /* introPage.swift */,
 				276ABCD92AD4280500FC71A4 /* ContentView.swift */,
 				276ABCDB2AD4280600FC71A4 /* Assets.xcassets */,
 				276ABCDD2AD4280600FC71A4 /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BD782D02AD6E1BC00F3C85E /* introPage.swift in Sources */,
 				276ABCDA2AD4280500FC71A4 /* ContentView.swift in Sources */,
 				276ABCD82AD4280500FC71A4 /* EqletAppApp.swift in Sources */,
 			);
