@@ -9,13 +9,23 @@ import SwiftUI
 
 struct introPage: View {
     var body: some View {
-//        Text("Hello")
-//            .foregroundColor(Color(hex: "#6A5C46"))
-        Image("introBG")
-            .resizable()
-            .scaledToFill()
-            .edgesIgnoringSafeArea(.all)
+        //        Text("Hello")
+        //            .foregroundColor(Color(hex: "#6A5C46"))
+        
+        ZStack{
+            Image("introBG")
+                .resizable()
+                .scaledToFill()
+                .edgesIgnoringSafeArea(.all)
+            
+            Image("logo")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 250)
+            
+        }
     }
+    
 }
 
 #Preview {
