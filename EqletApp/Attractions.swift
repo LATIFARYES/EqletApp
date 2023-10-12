@@ -8,36 +8,46 @@
 import SwiftUI
 
 struct Attractions: View {
+    
+    init() {
+    //Use this if NavigationBarTitle is with Large Font
+    UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor(Color.color5)]
+
+        //Use this if NavigationBarTitle is with displayMode = .inline
+        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor(Color.color5)]
+    }
+    
+    
     @State var selectedRegion = region[0]
     var body: some View {
         ZStack{
             Color.color1
                 .ignoresSafeArea()
-           
-            VStack(alignment: .leading){
-            Text("Landmarks")
-                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                    .foregroundColor(.color5)
-                    .bold()
-                    .padding()
-            ScrollView(.horizontal){
-                HStack(spacing:10){
-                    ForEach(0 ..< 5) { i in
-                        RegionButton(selected: $selectedRegion, isActive: i == 1, regionName: region[i] )
-           
+            NavigationStack{
+                VStack{
+                    ScrollView(.horizontal){
+                        HStack(spacing:10){
+                            ForEach(0 ..< 5) { i in
+                                RegionButton(selected: $selectedRegion, isActive: i == 1, regionName: region[i] )
+                                
                             }
- 
+                            
+                        }
+                        Spacer()
+
                     }
-                    Spacer()
-                    }
+                    
                     .padding()
-    
-                
+                    
+                    
                 }
+                .navigationTitle("Landmarks")
+            }
+        }
             }
         }
                 
-    }
+    
 var region = ["Northern Region","Eastern Region","Central Region", "Southern Region","Western Region"]
   
 struct RegionButton : View{
@@ -70,16 +80,13 @@ struct RegionButton : View{
                                  .cornerRadius(8)
                                  .shadow(radius:1,x:1,y:1)
                                  
+                                 
                                 
             }
             }
             
         }
     }
-
-
-
-    
 
     
     #Preview {
