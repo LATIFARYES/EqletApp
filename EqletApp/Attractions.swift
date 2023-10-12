@@ -12,6 +12,7 @@ struct Attractions: View {
     var body: some View {
         ZStack{
             Color.color1
+                .ignoresSafeArea()
            
             VStack(alignment: .leading){
             Text("Landmarks")
@@ -29,9 +30,8 @@ struct Attractions: View {
                     }
                     Spacer()
                     }
-                
+                    .padding()
     
-        
                 
                 }
             }
@@ -40,8 +40,6 @@ struct Attractions: View {
     }
 var region = ["Northern Region","Eastern Region","Central Region", "Southern Region","Western Region"]
   
-var northernRegion = ["Madain Saleh","Maghair Shuaib"]
-
 struct RegionButton : View{
     @Binding var selected: String
     let isActive : Bool
@@ -51,20 +49,15 @@ struct RegionButton : View{
             selected = regionName
         })
         {
-
+            
             VStack{
                
                 Text(regionName)
                     .frame(maxHeight:40)
                     .frame(maxWidth:74)
+        
                                  .font(.system(size:12))
-                                 .overlay(
-                                    RoundedRectangle(cornerRadius:8)
-                                        .stroke(Color.color3,lineWidth:0.1)
-                                 )
                                  .foregroundColor(selected == regionName ? .white : .color4)
-                         
-                        
                                  .background(ZStack{
                                      if(selected == regionName){
                                          Color.color4
@@ -73,7 +66,10 @@ struct RegionButton : View{
                                          Color.white
                                      }
                                  })
+                                 
                                  .cornerRadius(8)
+                                 .shadow(radius:1,x:1,y:1)
+                                 
                                 
             }
             }
