@@ -143,7 +143,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27040C8B2ADA88C800969648 /* MyJourneys.swift in Sources */,
 				276ABCDA2AD4280500FC71A4 /* ContentView.swift in Sources */,
 				276ABCD82AD4280500FC71A4 /* EqletAppApp.swift in Sources */,
 				0E3F7C702ADC6B22003EB1DC /* CardView.swift in Sources */,
