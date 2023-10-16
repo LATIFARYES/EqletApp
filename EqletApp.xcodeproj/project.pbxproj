@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E3F7C702ADC6B22003EB1DC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3F7C6F2ADC6B22003EB1DC /* CardView.swift */; };
+		0E59917D2ADD6CA500077DB6 /* MyJourneys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E59917C2ADD6CA500077DB6 /* MyJourneys.swift */; };
 		0EA7DDF62AD6B1C70015A79B /* Attractions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA7DDF52AD6B1C70015A79B /* Attractions.swift */; };
 		276ABCD82AD4280500FC71A4 /* EqletAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276ABCD72AD4280500FC71A4 /* EqletAppApp.swift */; };
 		276ABCDA2AD4280500FC71A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276ABCD92AD4280500FC71A4 /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		0E3F7C6F2ADC6B22003EB1DC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		0E59917C2ADD6CA500077DB6 /* MyJourneys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJourneys.swift; sourceTree = "<group>"; };
 		0EA7DDF52AD6B1C70015A79B /* Attractions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attractions.swift; sourceTree = "<group>"; };
 		276ABCD42AD4280500FC71A4 /* EqletApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EqletApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		276ABCD72AD4280500FC71A4 /* EqletAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqletAppApp.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				276ABCD92AD4280500FC71A4 /* ContentView.swift */,
 				0E3F7C6F2ADC6B22003EB1DC /* CardView.swift */,
 				0EA7DDF52AD6B1C70015A79B /* Attractions.swift */,
+				0E59917C2ADD6CA500077DB6 /* MyJourneys.swift */,
 				276ABCDB2AD4280600FC71A4 /* Assets.xcassets */,
 				276ABCDD2AD4280600FC71A4 /* Preview Content */,
 			);
@@ -145,6 +148,7 @@
 			files = (
 				276ABCDA2AD4280500FC71A4 /* ContentView.swift in Sources */,
 				276ABCD82AD4280500FC71A4 /* EqletAppApp.swift in Sources */,
+				0E59917D2ADD6CA500077DB6 /* MyJourneys.swift in Sources */,
 				0E3F7C702ADC6B22003EB1DC /* CardView.swift in Sources */,
 				0EA7DDF62AD6B1C70015A79B /* Attractions.swift in Sources */,
 			);
