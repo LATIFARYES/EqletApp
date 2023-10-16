@@ -26,7 +26,7 @@ struct MyJourneys: View {
                              imageName: "MASMAK 3")
                     
                     
-                    CardView(title: "Al Diriyah",
+                    CardView(title: "Al Diriyah.",
                              content: "provides you the experience of wandering among a harmonious network of ancient areas and their monuments.",
                              city: "Riyadh",
                              
