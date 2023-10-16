@@ -8,61 +8,45 @@
 import SwiftUI
 
 struct MyJourneys: View {
+    init() {
+        // Large Navigation Title
+        
+        UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor.color5]
+    }
+    
     var body: some View {
         
         
         
         NavigationStack{
             ZStack {
-                Color.colorbac
+                Color.color1
                     .ignoresSafeArea()
                 
                 VStack(spacing: 30){
-  
-//                    CardView(title: "Al Masmak",
-//                             content: "it is a strong thick building used as a depot for weapons and ammunitions turned into a historic milestone then a museum.",
-//                             city: "Riyadh",
-//                             location: 26,
-//                             imageName: "MASMAK 3")
-//                    
-//                    
-//                    CardView(title: "Al Diriyah.",
-//                             content: "provides you the experience of wandering among a harmonious network of ancient areas and their monuments.",
-//                             city: "Riyadh",
-//                             
-//                             location: 60,
-//                             imageName: "DIRIYAH3")
-//                    
-//                    CardView(title: "Al Murabba",
-//                             content: "you will notice the unique design of the foyer at the center of the palace, surrounded by all the rooms.",
-//                             city: "Riyadh",
-//                             location: 60,
-//                             imageName: "MURABBA3")
-
-
-
-
-                    // Add space inside vstack to push it contant to top
+            
                     
-                    Spacer()
+                    ScrollView{
+                        LazyVStack(alignment:.leading, spacing:25) {
+                            ForEach(Northernlandmarks){landmark in
+                                CardView(landmark: landmark)
+                            }
+                        }
+                        .padding()
+                     
+                        Spacer()
+                    }
+                    
                 }
+                .navigationTitle("My Journeys")
                 
             }
-            .navigationTitle(" My Journeys")
             
         }
         
+     }
     }
-    
-    
-    init() {
-      // Large Navigation Title
-        
-        
-        UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor.colortext]
-    }
-    
-}
+
 
 #Preview {
     MyJourneys()

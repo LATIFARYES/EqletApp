@@ -29,7 +29,7 @@ struct Attractions: View {
                 VStack{
                     ScrollView(.horizontal){
                         HStack(spacing:15){
-                            ForEach(0 ..< 5) { i in
+                            ForEach(0..<5) { i in
                                 RegionButton(selected: $selectedRegion, isActive: i == 1, regionName: region[i] )
                                 
                             }
