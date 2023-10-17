@@ -9,6 +9,13 @@ import SwiftUI
 
 struct MapPage: View {
     @State var currentView: Int = 0
+    
+//    //tabbar color
+//    init() {
+//        UITabBar.appearance().barTintColor = UIColor(Color(.white))
+//      }
+    
+    
     var body: some View {
 
         TabView(selection: $currentView) {
@@ -24,7 +31,7 @@ struct MapPage: View {
                   Image( currentView == 0 ? "cameltrans" : "camelp2-2-2")
                   
                 }.tag(0)
-            
+
            Text(" landmarkes ")
             Attractions()
                 .tabItem {
@@ -41,7 +48,12 @@ struct MapPage: View {
                     Text("My Journyes")
                 }.tag(2)
             
-        } .onAppear{
+        } 
+
+
+    
+        .onAppear{
+
             requestPermession()
         }
     }
