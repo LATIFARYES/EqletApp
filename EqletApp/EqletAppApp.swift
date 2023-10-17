@@ -11,7 +11,8 @@ import SwiftUI
 struct EqletAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            IntroPage()
+           // ContentView()
         }
     }
 }

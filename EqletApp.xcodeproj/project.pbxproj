@@ -8,21 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		276ABCD82AD4280500FC71A4 /* EqletAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276ABCD72AD4280500FC71A4 /* EqletAppApp.swift */; };
-		276ABCDA2AD4280500FC71A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276ABCD92AD4280500FC71A4 /* ContentView.swift */; };
 		276ABCDC2AD4280600FC71A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276ABCDB2AD4280600FC71A4 /* Assets.xcassets */; };
 		276ABCDF2AD4280600FC71A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276ABCDE2AD4280600FC71A4 /* Preview Assets.xcassets */; };
 		7BD782D02AD6E1BC00F3C85E /* introPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD782CF2AD6E1BC00F3C85E /* introPage.swift */; };
 		8C76F1DA2ADC240800655349 /* PicPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76F1D92ADC240800655349 /* PicPage.swift */; };
+		8CA5FF652ADEB6AE00C00AE1 /* Attractions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5FF642ADEB6AE00C00AE1 /* Attractions.swift */; };
+		8CA5FF672ADEB6D500C00AE1 /* MyJourneys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5FF662ADEB6D500C00AE1 /* MyJourneys.swift */; };
+		8CA5FF692ADEB78D00C00AE1 /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5FF682ADEB78D00C00AE1 /* CardsView.swift */; };
+		8CA5FF6D2ADEBE2100C00AE1 /* MapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5FF6C2ADEBE2100C00AE1 /* MapPage.swift */; };
+		8CA5FF6F2ADEC79500C00AE1 /* location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5FF6E2ADEC79500C00AE1 /* location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		276ABCD42AD4280500FC71A4 /* EqletApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EqletApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		276ABCD72AD4280500FC71A4 /* EqletAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqletAppApp.swift; sourceTree = "<group>"; };
-		276ABCD92AD4280500FC71A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		276ABCDB2AD4280600FC71A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		276ABCDE2AD4280600FC71A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7BD782CF2AD6E1BC00F3C85E /* introPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = introPage.swift; sourceTree = "<group>"; };
 		8C76F1D92ADC240800655349 /* PicPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicPage.swift; sourceTree = "<group>"; };
+		8CA5FF642ADEB6AE00C00AE1 /* Attractions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attractions.swift; sourceTree = "<group>"; };
+		8CA5FF662ADEB6D500C00AE1 /* MyJourneys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJourneys.swift; sourceTree = "<group>"; };
+		8CA5FF682ADEB78D00C00AE1 /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
+		8CA5FF6C2ADEBE2100C00AE1 /* MapPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPage.swift; sourceTree = "<group>"; };
+		8CA5FF6E2ADEC79500C00AE1 /* location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				276ABCD72AD4280500FC71A4 /* EqletAppApp.swift */,
+				8CA5FF642ADEB6AE00C00AE1 /* Attractions.swift */,
+				8CA5FF682ADEB78D00C00AE1 /* CardsView.swift */,
+				8CA5FF662ADEB6D500C00AE1 /* MyJourneys.swift */,
 				8C76F1D92ADC240800655349 /* PicPage.swift */,
 				7BD782CF2AD6E1BC00F3C85E /* introPage.swift */,
-				276ABCD92AD4280500FC71A4 /* ContentView.swift */,
+				8CA5FF6E2ADEC79500C00AE1 /* location.swift */,
+				8CA5FF6C2ADEBE2100C00AE1 /* MapPage.swift */,
 				276ABCDB2AD4280600FC71A4 /* Assets.xcassets */,
 				276ABCDD2AD4280600FC71A4 /* Preview Content */,
 			);
@@ -143,9 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CA5FF6D2ADEBE2100C00AE1 /* MapPage.swift in Sources */,
+				8CA5FF692ADEB78D00C00AE1 /* CardsView.swift in Sources */,
+				8CA5FF6F2ADEC79500C00AE1 /* location.swift in Sources */,
+				8CA5FF672ADEB6D500C00AE1 /* MyJourneys.swift in Sources */,
 				7BD782D02AD6E1BC00F3C85E /* introPage.swift in Sources */,
 				8C76F1DA2ADC240800655349 /* PicPage.swift in Sources */,
-				276ABCDA2AD4280500FC71A4 /* ContentView.swift in Sources */,
+				8CA5FF652ADEB6AE00C00AE1 /* Attractions.swift in Sources */,
 				276ABCD82AD4280500FC71A4 /* EqletAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
