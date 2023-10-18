@@ -21,10 +21,9 @@ struct MapPage: View {
         TabView(selection: $currentView) {
             
             ZStack{
-                Image("introBG")
+                Image("intro")
                     .resizable().frame(height: .infinity)
-                    .aspectRatio(contentMode: .fill).ignoresSafeArea()
-                Image("1intro")
+                    .aspectRatio(contentMode: .fill)
             }
               .tabItem {
                    Text("Map")
